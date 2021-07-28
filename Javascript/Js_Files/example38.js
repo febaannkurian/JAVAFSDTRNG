@@ -1,0 +1,1 @@
+document.getElementById("demo").innerHTML = "no.of forms" + document.forms.length;
