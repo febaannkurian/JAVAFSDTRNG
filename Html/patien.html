@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script>
+
+var a = 5;
+var b = 10;
+var c = a + b;
+var d = "hello";
+alert(c);
+
+
+/*function call() {
+	//alert("this is an alert");
+} */
+</script>
+
+
+</head>
+<link href = "patient.css" rel = "stylesheet">
+<body>
+
+<div class  = container style = "text-align:center">
+<!--  <div style = "display: table-column"> -->
+<!--  <div style = "display: table-column; width:100%;"> -->
+
+
+<h2>PATIENT REGISTRATION</h2>
+
+<form method = "POST" action = "action.html">
+<table>
+    <tr>
+ <td> <label for = "fname">First name:</label> </td>
+ <td> <input type = "text" id = "fname" name = "fname" ><br><br> </td>
+ </tr>
+ <tr>
+  <td> <label for = "lname">Last name:</label> </td>
+  <td> <input type = "text" id = "lname" name = "lname" ><br><br> </td>
+   </tr>
+   <tr>
+   <td> <label for = "age">Age:</label> </td>
+   <td><input type = "text" id = "age" name = "age" ><br><br></td>
+  </tr>
+  <tr>
+  <td><label for = "address">Address:</label></td>
+  <td><input type = "text" id = "address" name = "address" ><br><br></td>
+  </tr>
+  
+  <tr>
+ <td> <label for = "district">District:</label> </td>
+  <td><select name = "district" id = "Select" >
+    <option value = "select">Select</option>
+    <option value = "trivandrum">Trivandrum</option>
+    <option value = "kollam">Kollam</option>  
+    <option value = "pathanamthitta">Pathanamthitta</option>
+    <option value = "aleppy">Aleppy</option>  
+    <option value = "kottayam">Kottayam</option>
+    <option value = "thrissur">Thrissur</option>       
+  </select><br><br>  </td>
+  </tr>
+  <tr>
+  <td><label for = "zipcode">Zipcode:</label></td>
+ <td> <input type = "text" id = "zipcode" name = "zipcode" ><br><br></td>
+ </tr>
+ <tr>
+ <td><label for = "gender">Gender:</label></td>
+  <td><select name = "gender" id = "gender" >
+  <option value = "select">Select</option>
+    <option value = "male">Male</option>
+    <option value = "female">Female</option>   
+  </select><br><br></td>
+  </tr>
+  <tr>
+  <td> <label for = "phone">Phone No:</label></td>
+  <td><input type = "text" id = "phone" name = "phone" ><br><br></td>
+ </tr>
+  <tr>
+  <td><p>Are you vaccinated?</p></td>
+ <td> <input type="radio" id="yes" name="yes" value="yes">
+  <label for="yes">Yes</label><br></td>
+  <td><input type="radio" id="no" name="no" value="no">
+ <label for="no">No</label><br></td>
+  </tr>
+  <tr>
+ <td> <input type = "submit" value = "Submit" onclick="call()"/></td>
+  </tr>
+ </table> 
+</form>
+</div>
+</body>
+</html>
